@@ -4,9 +4,8 @@
 target 'EzDatePickerTextField' do
 
   # Pods for EzDatePickerTextField
-#  pod 'Font-Awesome-Swift', '~> 1.7.2'
-  pod 'Font-Awesome-Swift4.2', :git => 'https://github.com/perlguy99/Font-Awesome-Swift.git', :tag => '1.9.0'
-  
+    pod 'FontAwesome.swift'
+    pod 'DateToolsSwift'
 
   target 'EzDatePickerTextFieldTests' do
     inherit! :search_paths

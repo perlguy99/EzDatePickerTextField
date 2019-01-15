@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Font_Awesome_Swift
+import FontAwesome_swift
 import DateToolsSwift
 
 @IBDesignable
@@ -93,7 +93,8 @@ class DateTimeTouchView: UIView, UITextFieldDelegate {
     
     func updateDefaultsForInterfaceBuilder() {
         if image == nil {
-            image = UIImage(icon: .FAUser, size: CGSize(width: 30, height: 30))
+//            image = UIImage(icon: .FAUser, size: CGSize(width: 30, height: 30))
+            image = UIImage.fontAwesomeIcon(name: .user, style: .regular, textColor: .black, size: CGSize(width: 30, height: 30))
         }
 
         if containerBackgroundColor == nil {

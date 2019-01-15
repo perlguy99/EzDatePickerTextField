@@ -538,7 +538,7 @@
 				84056A9521EE2E150011C5AD /* Sources */,
 				84056A9621EE2E150011C5AD /* Frameworks */,
 				84056A9721EE2E150011C5AD /* Resources */,
-				640BBFCFA23D354F7CC530CE /* [CP] Copy Pods Resources */,
+				1CAFCAC5DC6228DDF74EF94D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -557,7 +557,7 @@
 				84056A9E21EE2E150011C5AD /* Sources */,
 				84056A9F21EE2E150011C5AD /* Frameworks */,
 				84056AA021EE2E150011C5AD /* Resources */,
-				05438E5DBD40BBE79D99FBC0 /* [CP] Copy Pods Resources */,
+				4BCFD9CEA17FB7945DA25D39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -625,7 +625,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05438E5DBD40BBE79D99FBC0 /* [CP] Copy Pods Resources */ = {
+		1CAFCAC5DC6228DDF74EF94D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh",
+				"${PODS_ROOT}/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCFD9CEA17FB7945DA25D39 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -634,13 +658,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/Font-Awesome-Swift/Font-Awesome-Swift.bundle",
+				"${PODS_ROOT}/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Font-Awesome-Swift.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -667,28 +693,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		640BBFCFA23D354F7CC530CE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/Font-Awesome-Swift/Font-Awesome-Swift.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Font-Awesome-Swift.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75843CF54013DED4DA8CDED8 /* [CP] Check Pods Manifest.lock */ = {

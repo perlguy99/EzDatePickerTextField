@@ -110,8 +110,8 @@ but still get the benefit of using one.
   #
 
   s.framework  = "UIKit"
-  # s.dependency 'Font-Awesome-Swift', '~> 1.7.2'
-  s.dependency 'Font-Awesome-Swift4.2', :git => 'https://github.com/perlguy99/Font-Awesome-Swift.git', :tag => '1.9.0'
+  s.dependency 'FontAwesome.swift', '~> 1.4.8'
+  s.dependency 'DateToolsSwift', '~> 4.0.0'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
