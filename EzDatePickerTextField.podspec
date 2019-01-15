@@ -63,7 +63,7 @@ but still get the benefit of using one.
   #
 
   s.author             = { "Brent Michalski" => "Brent.Michalski@gmail.com" }
-  s.social_media_url   = "http://twitter.com/Brent Michalski"
+  s.social_media_url   = "http://twitter.com/perlguy2"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -110,7 +110,8 @@ but still get the benefit of using one.
   #
 
   s.framework  = "UIKit"
-  s.dependency 'Font-Awesome-Swift', '~> 1.7.2'
+  # s.dependency 'Font-Awesome-Swift', '~> 1.7.2'
+  s.dependency 'Font-Awesome-Swift4.2', :git => 'https://github.com/perlguy99/Font-Awesome-Swift.git', :tag => '1.9.0'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
 

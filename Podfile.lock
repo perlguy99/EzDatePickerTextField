@@ -1,16 +1,22 @@
 PODS:
-  - Font-Awesome-Swift (1.7.2)
+  - Font-Awesome-Swift (1.8.1)
 
 DEPENDENCIES:
-  - Font-Awesome-Swift (~> 1.7)
+  - Font-Awesome-Swift (from `https://github.com/perlguy99/Font-Awesome-Swift.git`, branch `Swift4.2`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Font-Awesome-Swift
+EXTERNAL SOURCES:
+  Font-Awesome-Swift:
+    :branch: Swift4.2
+    :git: https://github.com/perlguy99/Font-Awesome-Swift.git
+
+CHECKOUT OPTIONS:
+  Font-Awesome-Swift:
+    :commit: 01c5f1f7af5804fe9220b5543838e86215e506df
+    :git: https://github.com/perlguy99/Font-Awesome-Swift.git
 
 SPEC CHECKSUMS:
-  Font-Awesome-Swift: 83ab9db365379ee6025167cec67bdc5d3226a811
+  Font-Awesome-Swift: 2c7e143fc4f851dcf98a6951650e35eedd9d7159
 
-PODFILE CHECKSUM: e47c8477691cdb193766f6460e87245824a81442
+PODFILE CHECKSUM: 910ae099619197cc88b0e435129185713337fbbd
 
 COCOAPODS: 1.5.3
