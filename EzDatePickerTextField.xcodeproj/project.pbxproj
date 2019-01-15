@@ -635,14 +635,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh",
 				"${PODS_ROOT}/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -659,14 +657,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests-resources.sh",
 				"${PODS_ROOT}/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

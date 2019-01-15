@@ -1,20 +1,16 @@
 PODS:
   - DateToolsSwift (4.0.0)
-  - FontAwesome.swift (1.4.6)
 
 DEPENDENCIES:
   - DateToolsSwift
-  - FontAwesome.swift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DateToolsSwift
-    - FontAwesome.swift
 
 SPEC CHECKSUMS:
   DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
-  FontAwesome.swift: 18fb500c0decc2bbfadf2ae16a936704ec2c49bd
 
-PODFILE CHECKSUM: 366f87abd9d86f0f3e6b840ec2c3589bbf6022b5
+PODFILE CHECKSUM: 90fb321995edfd126ecb01a513fffd927d9aeda6
 
 COCOAPODS: 1.5.3

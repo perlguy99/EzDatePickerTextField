@@ -4,7 +4,7 @@
 target 'EzDatePickerTextField' do
 
   # Pods for EzDatePickerTextField
-    pod 'FontAwesome.swift'
+#    pod 'FontAwesome.swift'
     pod 'DateToolsSwift'
 
   target 'EzDatePickerTextFieldTests' do

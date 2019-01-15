@@ -110,7 +110,7 @@ but still get the benefit of using one.
   #
 
   s.framework  = "UIKit"
-  s.dependency 'FontAwesome.swift', '~> 1.4.8'
+#  s.dependency 'FontAwesome.swift', '~> 1.4.8'
   s.dependency 'DateToolsSwift', '~> 4.0.0'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
