@@ -7,9 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB16B058544E777C6A37D2B /* libPods-EzDatePickerTextFieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268ED699247775C74FE1E85 /* libPods-EzDatePickerTextFieldTests.a */; };
 		84056AA321EE2E150011C5AD /* EzDatePickerTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84056A9921EE2E150011C5AD /* EzDatePickerTextField.framework */; };
 		84056AA821EE2E150011C5AD /* EzDatePickerTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AA721EE2E150011C5AD /* EzDatePickerTextFieldTests.swift */; };
 		84056AAA21EE2E150011C5AD /* EzDatePickerTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 84056A9C21EE2E150011C5AD /* EzDatePickerTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84056B0521EE2FEC0011C5AD /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AB621EE2FEC0011C5AD /* Array+Extensions.swift */; };
+		84056B0621EE2FEC0011C5AD /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AB721EE2FEC0011C5AD /* UISegmentedControl+Extensions.swift */; };
+		84056B0721EE2FEC0011C5AD /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AB821EE2FEC0011C5AD /* UIImageView+Extensions.swift */; };
+		84056B0821EE2FEC0011C5AD /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AB921EE2FEC0011C5AD /* UIViewController+Extensions.swift */; };
+		84056B0921EE2FEC0011C5AD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABA21EE2FEC0011C5AD /* UIView+Extensions.swift */; };
+		84056B0A21EE2FEC0011C5AD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABB21EE2FEC0011C5AD /* Date+Extension.swift */; };
+		84056B0B21EE2FEC0011C5AD /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABC21EE2FEC0011C5AD /* String+Extensions.swift */; };
+		84056B0C21EE2FEC0011C5AD /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABD21EE2FEC0011C5AD /* UITextView+Extensions.swift */; };
+		84056B0D21EE2FEC0011C5AD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABE21EE2FEC0011C5AD /* UIColor+Extensions.swift */; };
+		84056B0E21EE2FEC0011C5AD /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ABF21EE2FEC0011C5AD /* UIImage+Extensions.swift */; };
+		84056B0F21EE2FEC0011C5AD /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC021EE2FEC0011C5AD /* UISearchBar+Extensions.swift */; };
+		84056B1021EE2FEC0011C5AD /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC121EE2FEC0011C5AD /* UIApplication+Extensions.swift */; };
+		84056B1121EE2FEC0011C5AD /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC221EE2FEC0011C5AD /* UIAlertController+Extensions.swift */; };
+		84056B1221EE2FEC0011C5AD /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC321EE2FEC0011C5AD /* Optional+Extensions.swift */; };
+		84056B1321EE2FEC0011C5AD /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC421EE2FEC0011C5AD /* Common+Extensions.swift */; };
+		84056B1421EE2FEC0011C5AD /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC521EE2FEC0011C5AD /* Locale+Extensions.swift */; };
+		84056B1521EE2FEC0011C5AD /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC621EE2FEC0011C5AD /* UITextField+Extensions.swift */; };
+		84056B1621EE2FEC0011C5AD /* AttributedTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AC921EE2FEC0011C5AD /* AttributedTextBlock.swift */; };
+		84056B1721EE2FEC0011C5AD /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ACA21EE2FEC0011C5AD /* TextViewController.swift */; };
+		84056B1821EE2FEC0011C5AD /* Countries.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84056ACD21EE2FEC0011C5AD /* Countries.bundle */; };
+		84056B1921EE2FEC0011C5AD /* LocaleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ACF21EE2FEC0011C5AD /* LocaleStore.swift */; };
+		84056B1A21EE2FEC0011C5AD /* LocaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD121EE2FEC0011C5AD /* LocaleInfo.swift */; };
+		84056B1B21EE2FEC0011C5AD /* LocalePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD221EE2FEC0011C5AD /* LocalePickerViewController.swift */; };
+		84056B1C21EE2FEC0011C5AD /* PhoneCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD421EE2FEC0011C5AD /* PhoneCodeCell.swift */; };
+		84056B1D21EE2FEC0011C5AD /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD521EE2FEC0011C5AD /* CurrencyCell.swift */; };
+		84056B1E21EE2FEC0011C5AD /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD621EE2FEC0011C5AD /* CountryCell.swift */; };
+		84056B1F21EE2FEC0011C5AD /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD821EE2FEC0011C5AD /* TwoTextFieldsViewController.swift */; };
+		84056B2021EE2FEC0011C5AD /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AD921EE2FEC0011C5AD /* OneTextFieldViewController.swift */; };
+		84056B2121EE2FEC0011C5AD /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ADC21EE2FEC0011C5AD /* Assets.swift */; };
+		84056B2221EE2FEC0011C5AD /* PhotoLibraryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ADD21EE2FEC0011C5AD /* PhotoLibraryPickerViewController.swift */; };
+		84056B2321EE2FEC0011C5AD /* LocationSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056ADF21EE2FEC0011C5AD /* LocationSearchResultsViewController.swift */; };
+		84056B2421EE2FEC0011C5AD /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE021EE2FEC0011C5AD /* LocationPickerViewController.swift */; };
+		84056B2521EE2FEC0011C5AD /* SearchHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE221EE2FEC0011C5AD /* SearchHistoryManager.swift */; };
+		84056B2621EE2FEC0011C5AD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE421EE2FEC0011C5AD /* Location.swift */; };
+		84056B2721EE2FEC0011C5AD /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE521EE2FEC0011C5AD /* Address.swift */; };
+		84056B2821EE2FEC0011C5AD /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE721EE2FEC0011C5AD /* PickerViewViewController.swift */; };
+		84056B2921EE2FEC0011C5AD /* ContactsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AE921EE2FEC0011C5AD /* ContactsPickerViewController.swift */; };
+		84056B2A21EE2FEC0011C5AD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AEB21EE2FEC0011C5AD /* Contacts.swift */; };
+		84056B2B21EE2FEC0011C5AD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AED21EE2FEC0011C5AD /* Contact.swift */; };
+		84056B2C21EE2FEC0011C5AD /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AEF21EE2FEC0011C5AD /* ContactCell.swift */; };
+		84056B2D21EE2FEC0011C5AD /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AF121EE2FEC0011C5AD /* ColorPickerViewController.swift */; };
+		84056B2E21EE2FEC0011C5AD /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AF321EE2FEC0011C5AD /* DatePickerViewController.swift */; };
+		84056B2F21EE2FEC0011C5AD /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AF521EE2FEC0011C5AD /* ImagePickerViewController.swift */; };
+		84056B3021EE2FEC0011C5AD /* ItemWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AF721EE2FEC0011C5AD /* ItemWithImage.swift */; };
+		84056B3121EE2FEC0011C5AD /* PhotoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AFA21EE2FEC0011C5AD /* PhotoLayout.swift */; };
+		84056B3221EE2FEC0011C5AD /* TelegramPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AFB21EE2FEC0011C5AD /* TelegramPickerViewController.swift */; };
+		84056B3321EE2FEC0011C5AD /* ItemWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AFD21EE2FEC0011C5AD /* ItemWithPhoto.swift */; };
+		84056B3421EE2FEC0011C5AD /* LikeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056AFE21EE2FEC0011C5AD /* LikeButtonCell.swift */; };
+		84056B3521EE2FEC0011C5AD /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B0021EE2FEC0011C5AD /* Label.swift */; };
+		84056B3621EE2FEC0011C5AD /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B0121EE2FEC0011C5AD /* SegmentedControl.swift */; };
+		84056B3721EE2FEC0011C5AD /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B0221EE2FEC0011C5AD /* GradientSlider.swift */; };
+		84056B3821EE2FEC0011C5AD /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B0321EE2FEC0011C5AD /* TextField.swift */; };
+		84056B3921EE2FEC0011C5AD /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B0421EE2FEC0011C5AD /* Button.swift */; };
+		84056B3C21EE30360011C5AD /* DateTimeTouchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84056B3A21EE30360011C5AD /* DateTimeTouchView.xib */; };
+		84056B3D21EE30360011C5AD /* DateTimeTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84056B3B21EE30360011C5AD /* DateTimeTouchView.swift */; };
+		8B3589888427589901B4AB17 /* libPods-EzDatePickerTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5054A02D0E31F1FAE38292 /* libPods-EzDatePickerTextField.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +80,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8D1CF9A6D56524112CA3B0 /* Pods-EzDatePickerTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzDatePickerTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		3268ED699247775C74FE1E85 /* libPods-EzDatePickerTextFieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EzDatePickerTextFieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84056A9921EE2E150011C5AD /* EzDatePickerTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EzDatePickerTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84056A9C21EE2E150011C5AD /* EzDatePickerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzDatePickerTextField.h; sourceTree = "<group>"; };
 		84056A9D21EE2E150011C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84056AA221EE2E150011C5AD /* EzDatePickerTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzDatePickerTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84056AA721EE2E150011C5AD /* EzDatePickerTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzDatePickerTextFieldTests.swift; sourceTree = "<group>"; };
 		84056AA921EE2E150011C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84056AB621EE2FEC0011C5AD /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		84056AB721EE2FEC0011C5AD /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		84056AB821EE2FEC0011C5AD /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		84056AB921EE2FEC0011C5AD /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84056ABA21EE2FEC0011C5AD /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		84056ABB21EE2FEC0011C5AD /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		84056ABC21EE2FEC0011C5AD /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		84056ABD21EE2FEC0011C5AD /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		84056ABE21EE2FEC0011C5AD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		84056ABF21EE2FEC0011C5AD /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC021EE2FEC0011C5AD /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC121EE2FEC0011C5AD /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC221EE2FEC0011C5AD /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC321EE2FEC0011C5AD /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC421EE2FEC0011C5AD /* Common+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC521EE2FEC0011C5AD /* Locale+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC621EE2FEC0011C5AD /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		84056AC921EE2FEC0011C5AD /* AttributedTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextBlock.swift; sourceTree = "<group>"; };
+		84056ACA21EE2FEC0011C5AD /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		84056ACD21EE2FEC0011C5AD /* Countries.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Countries.bundle; sourceTree = "<group>"; };
+		84056ACF21EE2FEC0011C5AD /* LocaleStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleStore.swift; sourceTree = "<group>"; };
+		84056AD121EE2FEC0011C5AD /* LocaleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleInfo.swift; sourceTree = "<group>"; };
+		84056AD221EE2FEC0011C5AD /* LocalePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalePickerViewController.swift; sourceTree = "<group>"; };
+		84056AD421EE2FEC0011C5AD /* PhoneCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCodeCell.swift; sourceTree = "<group>"; };
+		84056AD521EE2FEC0011C5AD /* CurrencyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		84056AD621EE2FEC0011C5AD /* CountryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		84056AD821EE2FEC0011C5AD /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
+		84056AD921EE2FEC0011C5AD /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
+		84056ADC21EE2FEC0011C5AD /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		84056ADD21EE2FEC0011C5AD /* PhotoLibraryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPickerViewController.swift; sourceTree = "<group>"; };
+		84056ADF21EE2FEC0011C5AD /* LocationSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsViewController.swift; sourceTree = "<group>"; };
+		84056AE021EE2FEC0011C5AD /* LocationPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
+		84056AE221EE2FEC0011C5AD /* SearchHistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistoryManager.swift; sourceTree = "<group>"; };
+		84056AE421EE2FEC0011C5AD /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84056AE521EE2FEC0011C5AD /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		84056AE721EE2FEC0011C5AD /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		84056AE921EE2FEC0011C5AD /* ContactsPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerViewController.swift; sourceTree = "<group>"; };
+		84056AEB21EE2FEC0011C5AD /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		84056AED21EE2FEC0011C5AD /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		84056AEF21EE2FEC0011C5AD /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		84056AF121EE2FEC0011C5AD /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		84056AF321EE2FEC0011C5AD /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		84056AF521EE2FEC0011C5AD /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		84056AF721EE2FEC0011C5AD /* ItemWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithImage.swift; sourceTree = "<group>"; };
+		84056AFA21EE2FEC0011C5AD /* PhotoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLayout.swift; sourceTree = "<group>"; };
+		84056AFB21EE2FEC0011C5AD /* TelegramPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelegramPickerViewController.swift; sourceTree = "<group>"; };
+		84056AFD21EE2FEC0011C5AD /* ItemWithPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemWithPhoto.swift; sourceTree = "<group>"; };
+		84056AFE21EE2FEC0011C5AD /* LikeButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonCell.swift; sourceTree = "<group>"; };
+		84056B0021EE2FEC0011C5AD /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		84056B0121EE2FEC0011C5AD /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		84056B0221EE2FEC0011C5AD /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		84056B0321EE2FEC0011C5AD /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		84056B0421EE2FEC0011C5AD /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		84056B3A21EE30360011C5AD /* DateTimeTouchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimeTouchView.xib; sourceTree = "<group>"; };
+		84056B3B21EE30360011C5AD /* DateTimeTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeTouchView.swift; sourceTree = "<group>"; };
+		AD5054A02D0E31F1FAE38292 /* libPods-EzDatePickerTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EzDatePickerTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC47510101DED4D6E2BB765 /* Pods-EzDatePickerTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzDatePickerTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField.release.xcconfig"; sourceTree = "<group>"; };
+		DDEFC0BE289798799B932225 /* Pods-EzDatePickerTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzDatePickerTextFieldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		F87F4547CA35DA6E105EBBDB /* Pods-EzDatePickerTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzDatePickerTextFieldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3589888427589901B4AB17 /* libPods-EzDatePickerTextField.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84056AA321EE2E150011C5AD /* EzDatePickerTextField.framework in Frameworks */,
+				4EB16B058544E777C6A37D2B /* libPods-EzDatePickerTextFieldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +176,8 @@
 				84056A9B21EE2E150011C5AD /* EzDatePickerTextField */,
 				84056AA621EE2E150011C5AD /* EzDatePickerTextFieldTests */,
 				84056A9A21EE2E150011C5AD /* Products */,
+				A467CD523DA1EBCCB2897CE7 /* Pods */,
+				B5860E20376245958674214C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +193,9 @@
 		84056A9B21EE2E150011C5AD /* EzDatePickerTextField */ = {
 			isa = PBXGroup;
 			children = (
+				84056B3B21EE30360011C5AD /* DateTimeTouchView.swift */,
+				84056B3A21EE30360011C5AD /* DateTimeTouchView.xib */,
+				84056AB321EE2FEC0011C5AD /* AlertsAndPickers */,
 				84056A9C21EE2E150011C5AD /* EzDatePickerTextField.h */,
 				84056A9D21EE2E150011C5AD /* Info.plist */,
 			);
@@ -84,6 +209,310 @@
 				84056AA921EE2E150011C5AD /* Info.plist */,
 			);
 			path = EzDatePickerTextFieldTests;
+			sourceTree = "<group>";
+		};
+		84056AB321EE2FEC0011C5AD /* AlertsAndPickers */ = {
+			isa = PBXGroup;
+			children = (
+				84056AB421EE2FEC0011C5AD /* Source */,
+			);
+			path = AlertsAndPickers;
+			sourceTree = "<group>";
+		};
+		84056AB421EE2FEC0011C5AD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84056AB521EE2FEC0011C5AD /* Extensions */,
+				84056AC721EE2FEC0011C5AD /* Viewers */,
+				84056ACB21EE2FEC0011C5AD /* Pickers */,
+				84056AFF21EE2FEC0011C5AD /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		84056AB521EE2FEC0011C5AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84056AB621EE2FEC0011C5AD /* Array+Extensions.swift */,
+				84056AB721EE2FEC0011C5AD /* UISegmentedControl+Extensions.swift */,
+				84056AB821EE2FEC0011C5AD /* UIImageView+Extensions.swift */,
+				84056AB921EE2FEC0011C5AD /* UIViewController+Extensions.swift */,
+				84056ABA21EE2FEC0011C5AD /* UIView+Extensions.swift */,
+				84056ABB21EE2FEC0011C5AD /* Date+Extension.swift */,
+				84056ABC21EE2FEC0011C5AD /* String+Extensions.swift */,
+				84056ABD21EE2FEC0011C5AD /* UITextView+Extensions.swift */,
+				84056ABE21EE2FEC0011C5AD /* UIColor+Extensions.swift */,
+				84056ABF21EE2FEC0011C5AD /* UIImage+Extensions.swift */,
+				84056AC021EE2FEC0011C5AD /* UISearchBar+Extensions.swift */,
+				84056AC121EE2FEC0011C5AD /* UIApplication+Extensions.swift */,
+				84056AC221EE2FEC0011C5AD /* UIAlertController+Extensions.swift */,
+				84056AC321EE2FEC0011C5AD /* Optional+Extensions.swift */,
+				84056AC421EE2FEC0011C5AD /* Common+Extensions.swift */,
+				84056AC521EE2FEC0011C5AD /* Locale+Extensions.swift */,
+				84056AC621EE2FEC0011C5AD /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84056AC721EE2FEC0011C5AD /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				84056AC821EE2FEC0011C5AD /* Models */,
+				84056ACA21EE2FEC0011C5AD /* TextViewController.swift */,
+			);
+			path = Viewers;
+			sourceTree = "<group>";
+		};
+		84056AC821EE2FEC0011C5AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84056AC921EE2FEC0011C5AD /* AttributedTextBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84056ACB21EE2FEC0011C5AD /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				84056ACC21EE2FEC0011C5AD /* Locale */,
+				84056AD721EE2FEC0011C5AD /* TextFields */,
+				84056ADA21EE2FEC0011C5AD /* PhotoLibrary */,
+				84056ADE21EE2FEC0011C5AD /* Location */,
+				84056AE621EE2FEC0011C5AD /* PickerView */,
+				84056AE821EE2FEC0011C5AD /* Contacts */,
+				84056AF021EE2FEC0011C5AD /* Color */,
+				84056AF221EE2FEC0011C5AD /* Date */,
+				84056AF421EE2FEC0011C5AD /* Image */,
+				84056AF821EE2FEC0011C5AD /* Telegram */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		84056ACC21EE2FEC0011C5AD /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				84056ACD21EE2FEC0011C5AD /* Countries.bundle */,
+				84056ACE21EE2FEC0011C5AD /* Managers */,
+				84056AD021EE2FEC0011C5AD /* Models */,
+				84056AD221EE2FEC0011C5AD /* LocalePickerViewController.swift */,
+				84056AD321EE2FEC0011C5AD /* Views */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		84056ACE21EE2FEC0011C5AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84056ACF21EE2FEC0011C5AD /* LocaleStore.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84056AD021EE2FEC0011C5AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84056AD121EE2FEC0011C5AD /* LocaleInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84056AD321EE2FEC0011C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84056AD421EE2FEC0011C5AD /* PhoneCodeCell.swift */,
+				84056AD521EE2FEC0011C5AD /* CurrencyCell.swift */,
+				84056AD621EE2FEC0011C5AD /* CountryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84056AD721EE2FEC0011C5AD /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				84056AD821EE2FEC0011C5AD /* TwoTextFieldsViewController.swift */,
+				84056AD921EE2FEC0011C5AD /* OneTextFieldViewController.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		84056ADA21EE2FEC0011C5AD /* PhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				84056ADB21EE2FEC0011C5AD /* Managers */,
+				84056ADD21EE2FEC0011C5AD /* PhotoLibraryPickerViewController.swift */,
+			);
+			path = PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		84056ADB21EE2FEC0011C5AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84056ADC21EE2FEC0011C5AD /* Assets.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84056ADE21EE2FEC0011C5AD /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				84056ADF21EE2FEC0011C5AD /* LocationSearchResultsViewController.swift */,
+				84056AE021EE2FEC0011C5AD /* LocationPickerViewController.swift */,
+				84056AE121EE2FEC0011C5AD /* Managers */,
+				84056AE321EE2FEC0011C5AD /* Models */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		84056AE121EE2FEC0011C5AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84056AE221EE2FEC0011C5AD /* SearchHistoryManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84056AE321EE2FEC0011C5AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84056AE421EE2FEC0011C5AD /* Location.swift */,
+				84056AE521EE2FEC0011C5AD /* Address.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84056AE621EE2FEC0011C5AD /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				84056AE721EE2FEC0011C5AD /* PickerViewViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		84056AE821EE2FEC0011C5AD /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				84056AE921EE2FEC0011C5AD /* ContactsPickerViewController.swift */,
+				84056AEA21EE2FEC0011C5AD /* Managers */,
+				84056AEC21EE2FEC0011C5AD /* Models */,
+				84056AEE21EE2FEC0011C5AD /* Views */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		84056AEA21EE2FEC0011C5AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84056AEB21EE2FEC0011C5AD /* Contacts.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84056AEC21EE2FEC0011C5AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84056AED21EE2FEC0011C5AD /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84056AEE21EE2FEC0011C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84056AEF21EE2FEC0011C5AD /* ContactCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84056AF021EE2FEC0011C5AD /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				84056AF121EE2FEC0011C5AD /* ColorPickerViewController.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		84056AF221EE2FEC0011C5AD /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				84056AF321EE2FEC0011C5AD /* DatePickerViewController.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		84056AF421EE2FEC0011C5AD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84056AF521EE2FEC0011C5AD /* ImagePickerViewController.swift */,
+				84056AF621EE2FEC0011C5AD /* Views */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		84056AF621EE2FEC0011C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84056AF721EE2FEC0011C5AD /* ItemWithImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84056AF821EE2FEC0011C5AD /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				84056AF921EE2FEC0011C5AD /* Layouts */,
+				84056AFB21EE2FEC0011C5AD /* TelegramPickerViewController.swift */,
+				84056AFC21EE2FEC0011C5AD /* Views */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		84056AF921EE2FEC0011C5AD /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				84056AFA21EE2FEC0011C5AD /* PhotoLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		84056AFC21EE2FEC0011C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84056AFD21EE2FEC0011C5AD /* ItemWithPhoto.swift */,
+				84056AFE21EE2FEC0011C5AD /* LikeButtonCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84056AFF21EE2FEC0011C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84056B0021EE2FEC0011C5AD /* Label.swift */,
+				84056B0121EE2FEC0011C5AD /* SegmentedControl.swift */,
+				84056B0221EE2FEC0011C5AD /* GradientSlider.swift */,
+				84056B0321EE2FEC0011C5AD /* TextField.swift */,
+				84056B0421EE2FEC0011C5AD /* Button.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A467CD523DA1EBCCB2897CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D8D1CF9A6D56524112CA3B0 /* Pods-EzDatePickerTextField.debug.xcconfig */,
+				DDC47510101DED4D6E2BB765 /* Pods-EzDatePickerTextField.release.xcconfig */,
+				F87F4547CA35DA6E105EBBDB /* Pods-EzDatePickerTextFieldTests.debug.xcconfig */,
+				DDEFC0BE289798799B932225 /* Pods-EzDatePickerTextFieldTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5860E20376245958674214C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD5054A02D0E31F1FAE38292 /* libPods-EzDatePickerTextField.a */,
+				3268ED699247775C74FE1E85 /* libPods-EzDatePickerTextFieldTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +533,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84056AAD21EE2E150011C5AD /* Build configuration list for PBXNativeTarget "EzDatePickerTextField" */;
 			buildPhases = (
+				4C09B1AC39E1E55015F4D6E7 /* [CP] Check Pods Manifest.lock */,
 				84056A9421EE2E150011C5AD /* Headers */,
 				84056A9521EE2E150011C5AD /* Sources */,
 				84056A9621EE2E150011C5AD /* Frameworks */,
 				84056A9721EE2E150011C5AD /* Resources */,
+				640BBFCFA23D354F7CC530CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +553,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84056AB021EE2E150011C5AD /* Build configuration list for PBXNativeTarget "EzDatePickerTextFieldTests" */;
 			buildPhases = (
+				75843CF54013DED4DA8CDED8 /* [CP] Check Pods Manifest.lock */,
 				84056A9E21EE2E150011C5AD /* Sources */,
 				84056A9F21EE2E150011C5AD /* Frameworks */,
 				84056AA021EE2E150011C5AD /* Resources */,
+				05438E5DBD40BBE79D99FBC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +610,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84056B1821EE2FEC0011C5AD /* Countries.bundle in Resources */,
+				84056B3C21EE30360011C5AD /* DateTimeTouchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +624,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05438E5DBD40BBE79D99FBC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Font-Awesome-Swift/Font-Awesome-Swift.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Font-Awesome-Swift.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextFieldTests/Pods-EzDatePickerTextFieldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C09B1AC39E1E55015F4D6E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EzDatePickerTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		640BBFCFA23D354F7CC530CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Font-Awesome-Swift/Font-Awesome-Swift.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Font-Awesome-Swift.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzDatePickerTextField/Pods-EzDatePickerTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75843CF54013DED4DA8CDED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EzDatePickerTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84056A9521EE2E150011C5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84056B2321EE2FEC0011C5AD /* LocationSearchResultsViewController.swift in Sources */,
+				84056B2621EE2FEC0011C5AD /* Location.swift in Sources */,
+				84056B3621EE2FEC0011C5AD /* SegmentedControl.swift in Sources */,
+				84056B2421EE2FEC0011C5AD /* LocationPickerViewController.swift in Sources */,
+				84056B3721EE2FEC0011C5AD /* GradientSlider.swift in Sources */,
+				84056B3321EE2FEC0011C5AD /* ItemWithPhoto.swift in Sources */,
+				84056B3821EE2FEC0011C5AD /* TextField.swift in Sources */,
+				84056B2C21EE2FEC0011C5AD /* ContactCell.swift in Sources */,
+				84056B1D21EE2FEC0011C5AD /* CurrencyCell.swift in Sources */,
+				84056B0821EE2FEC0011C5AD /* UIViewController+Extensions.swift in Sources */,
+				84056B2F21EE2FEC0011C5AD /* ImagePickerViewController.swift in Sources */,
+				84056B3921EE2FEC0011C5AD /* Button.swift in Sources */,
+				84056B2921EE2FEC0011C5AD /* ContactsPickerViewController.swift in Sources */,
+				84056B3021EE2FEC0011C5AD /* ItemWithImage.swift in Sources */,
+				84056B3221EE2FEC0011C5AD /* TelegramPickerViewController.swift in Sources */,
+				84056B0B21EE2FEC0011C5AD /* String+Extensions.swift in Sources */,
+				84056B2821EE2FEC0011C5AD /* PickerViewViewController.swift in Sources */,
+				84056B1A21EE2FEC0011C5AD /* LocaleInfo.swift in Sources */,
+				84056B2021EE2FEC0011C5AD /* OneTextFieldViewController.swift in Sources */,
+				84056B1021EE2FEC0011C5AD /* UIApplication+Extensions.swift in Sources */,
+				84056B1521EE2FEC0011C5AD /* UITextField+Extensions.swift in Sources */,
+				84056B0F21EE2FEC0011C5AD /* UISearchBar+Extensions.swift in Sources */,
+				84056B3121EE2FEC0011C5AD /* PhotoLayout.swift in Sources */,
+				84056B1E21EE2FEC0011C5AD /* CountryCell.swift in Sources */,
+				84056B2721EE2FEC0011C5AD /* Address.swift in Sources */,
+				84056B0721EE2FEC0011C5AD /* UIImageView+Extensions.swift in Sources */,
+				84056B0921EE2FEC0011C5AD /* UIView+Extensions.swift in Sources */,
+				84056B2221EE2FEC0011C5AD /* PhotoLibraryPickerViewController.swift in Sources */,
+				84056B3421EE2FEC0011C5AD /* LikeButtonCell.swift in Sources */,
+				84056B0621EE2FEC0011C5AD /* UISegmentedControl+Extensions.swift in Sources */,
+				84056B1F21EE2FEC0011C5AD /* TwoTextFieldsViewController.swift in Sources */,
+				84056B2B21EE2FEC0011C5AD /* Contact.swift in Sources */,
+				84056B1121EE2FEC0011C5AD /* UIAlertController+Extensions.swift in Sources */,
+				84056B1C21EE2FEC0011C5AD /* PhoneCodeCell.swift in Sources */,
+				84056B0521EE2FEC0011C5AD /* Array+Extensions.swift in Sources */,
+				84056B1221EE2FEC0011C5AD /* Optional+Extensions.swift in Sources */,
+				84056B0A21EE2FEC0011C5AD /* Date+Extension.swift in Sources */,
+				84056B0E21EE2FEC0011C5AD /* UIImage+Extensions.swift in Sources */,
+				84056B1921EE2FEC0011C5AD /* LocaleStore.swift in Sources */,
+				84056B0D21EE2FEC0011C5AD /* UIColor+Extensions.swift in Sources */,
+				84056B2E21EE2FEC0011C5AD /* DatePickerViewController.swift in Sources */,
+				84056B3D21EE30360011C5AD /* DateTimeTouchView.swift in Sources */,
+				84056B2D21EE2FEC0011C5AD /* ColorPickerViewController.swift in Sources */,
+				84056B3521EE2FEC0011C5AD /* Label.swift in Sources */,
+				84056B2521EE2FEC0011C5AD /* SearchHistoryManager.swift in Sources */,
+				84056B1B21EE2FEC0011C5AD /* LocalePickerViewController.swift in Sources */,
+				84056B2121EE2FEC0011C5AD /* Assets.swift in Sources */,
+				84056B1621EE2FEC0011C5AD /* AttributedTextBlock.swift in Sources */,
+				84056B1421EE2FEC0011C5AD /* Locale+Extensions.swift in Sources */,
+				84056B1321EE2FEC0011C5AD /* Common+Extensions.swift in Sources */,
+				84056B1721EE2FEC0011C5AD /* TextViewController.swift in Sources */,
+				84056B2A21EE2FEC0011C5AD /* Contacts.swift in Sources */,
+				84056B0C21EE2FEC0011C5AD /* UITextView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +919,7 @@
 		};
 		84056AAE21EE2E150011C5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8D1CF9A6D56524112CA3B0 /* Pods-EzDatePickerTextField.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +945,7 @@
 		};
 		84056AAF21EE2E150011C5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC47510101DED4D6E2BB765 /* Pods-EzDatePickerTextField.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -390,7 +971,9 @@
 		};
 		84056AB121EE2E150011C5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87F4547CA35DA6E105EBBDB /* Pods-EzDatePickerTextFieldTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = EzDatePickerTextFieldTests/Info.plist;
@@ -408,7 +991,9 @@
 		};
 		84056AB221EE2E150011C5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEFC0BE289798799B932225 /* Pods-EzDatePickerTextFieldTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = EzDatePickerTextFieldTests/Info.plist;
